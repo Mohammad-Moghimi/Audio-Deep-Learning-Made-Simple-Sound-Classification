@@ -18,6 +18,10 @@ These class labels can often be obtained from some part of the filename of the a
 
 For our demo, we will use the Urban Sound 8K dataset that consists of a corpus of ordinary sounds recorded from day-to-day city life. The sounds are taken from 10 classes such as drilling, dogs barking, and sirens. Each sound sample is labeled with the class to which it belongs.
 
+You can download the dataset from this link:
+
+https://urbansounddataset.weebly.com/urbansound8k.html
+
 After downloading the dataset, we see that it consists of two parts:
 
 Audio files in the ‘audio’ folder: It has 10 sub-folders named ‘fold1’ through ‘fold10’. Each sub-folder contains a number of ‘.wav’ audio samples eg. ‘fold1/103074–7–1–0.wav’
