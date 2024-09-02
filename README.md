@@ -54,3 +54,6 @@ The training data for this problem will be fairly simple:
 Since the dataset has a metadata file that contains this information already, we can use that directly. The metadata contains information about each audio file.
 
 ![image](https://github.com/user-attachments/assets/03889fe7-c4bb-43c2-ac5b-61f3836545f9)
+
+
+Since it is a CSV file, we can use Pandas to read it. We can prepare the feature and label data from the metadata.
