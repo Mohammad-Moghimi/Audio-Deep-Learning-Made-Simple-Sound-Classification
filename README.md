@@ -13,8 +13,9 @@ There are many suitable datasets available for sounds of different types. These 
 
 These class labels can often be obtained from some part of the filename of the audio sample or from the sub-folder name in which the file is located. Alternately the class labels are specified in a separate metadata file, usually in TXT, JSON, or CSV format.
 
-**Example problem — Classifying ordinary city sounds
-**For our demo, we will use the Urban Sound 8K dataset that consists of a corpus of ordinary sounds recorded from day-to-day city life. The sounds are taken from 10 classes such as drilling, dogs barking, and sirens. Each sound sample is labeled with the class to which it belongs.
+**Example problem — Classifying ordinary city sounds**
+
+For our demo, we will use the Urban Sound 8K dataset that consists of a corpus of ordinary sounds recorded from day-to-day city life. The sounds are taken from 10 classes such as drilling, dogs barking, and sirens. Each sound sample is labeled with the class to which it belongs.
 
 After downloading the dataset, we see that it consists of two parts:
 
