@@ -35,3 +35,20 @@ The samples are around 4 seconds in length. Here’s what one sample looks like:
 Sample Rate, Number of Channels, Bits, and Audio Encoding
 
 The recommendation of the dataset creators is to use the folds for doing 10-fold cross-validation to report metrics and evaluate the performance of your model. However, since our goal in this article is primarily as a demo of an audio deep learning example rather than to obtain the best metrics, we will ignore the folds and treat all the samples simply as one large dataset.
+
+**Prepare training data**
+As for most deep learning problems, we will follow these steps:
+
+![image](https://github.com/user-attachments/assets/94019b50-a33c-4440-8562-a053b6b1c59d)
+
+Deep Learning Workflow 
+
+The training data for this problem will be fairly simple:
+
+**The features (X) are the audio file paths
+**
+**The target labels (y) are the class names
+**
+Since the dataset has a metadata file that contains this information already, we can use that directly. The metadata contains information about each audio file.
+
+![image](https://github.com/user-attachments/assets/03889fe7-c4bb-43c2-ac5b-61f3836545f9)
